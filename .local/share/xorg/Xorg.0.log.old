@@ -1,0 +1,553 @@
+[    33.999] (--) Log file renamed from "/home/parallels/.local/share/xorg/Xorg.pid-2039.log" to "/home/parallels/.local/share/xorg/Xorg.0.log"
+[    34.003] 
+X.Org X Server 1.20.9
+X Protocol Version 11, Revision 0
+[    34.003] Build Operating System: Linux 4.15.0-130-generic x86_64 Ubuntu
+[    34.003] Current Operating System: Linux parallels-Parallels-Virtual-Platform 5.4.0-65-generic #73-Ubuntu SMP Mon Jan 18 17:25:17 UTC 2021 x86_64
+[    34.003] Kernel command line: BOOT_IMAGE=/boot/vmlinuz-5.4.0-65-generic root=UUID=b214da3c-eaae-4adf-bfcc-c64b050618e8 ro quiet splash vt.handoff=7
+[    34.003] Build Date: 17 January 2021  09:13:31AM
+[    34.003] xorg-server 2:1.20.9-2ubuntu1.2~20.04.1 (For technical support please see http://www.ubuntu.com/support) 
+[    34.003] Current version of pixman: 0.38.4
+[    34.003] 	Before reporting problems, check http://wiki.x.org
+	to make sure that you have the latest version.
+[    34.003] Markers: (--) probed, (**) from config file, (==) default setting,
+	(++) from command line, (!!) notice, (II) informational,
+	(WW) warning, (EE) error, (NI) not implemented, (??) unknown.
+[    34.003] (==) Log file: "/home/parallels/.local/share/xorg/Xorg.0.log", Time: Mon Feb  8 17:15:31 2021
+[    34.005] (==) Using system config directory "/usr/share/X11/xorg.conf.d"
+[    34.009] (==) ServerLayout "DefaultLayout"
+[    34.009] (**) |-->Screen "Parallels Screen" (0)
+[    34.009] (**) |   |-->Monitor "Parallels Monitor"
+[    34.009] (**) |   |-->Device "Parallels Video"
+[    34.010] (**) Option "AutoAddDevices" "yes"
+[    34.010] (**) Automatically adding devices
+[    34.010] (==) Automatically enabling devices
+[    34.010] (==) Automatically adding GPU devices
+[    34.010] (==) Automatically binding GPU devices
+[    34.010] (==) Max clients allowed: 256, resource mask: 0x1fffff
+[    34.010] (WW) The directory "/usr/share/fonts/X11/cyrillic" does not exist.
+[    34.010] 	Entry deleted from font path.
+[    34.010] (WW) The directory "/usr/share/fonts/X11/100dpi/" does not exist.
+[    34.010] 	Entry deleted from font path.
+[    34.010] (WW) The directory "/usr/share/fonts/X11/75dpi/" does not exist.
+[    34.010] 	Entry deleted from font path.
+[    34.010] (WW) The directory "/usr/share/fonts/X11/100dpi" does not exist.
+[    34.010] 	Entry deleted from font path.
+[    34.010] (WW) The directory "/usr/share/fonts/X11/75dpi" does not exist.
+[    34.010] 	Entry deleted from font path.
+[    34.010] (==) FontPath set to:
+	/usr/share/fonts/X11/misc,
+	/usr/share/fonts/X11/Type1,
+	built-ins
+[    34.010] (==) ModulePath set to "/usr/lib/xorg/modules"
+[    34.010] (II) The server relies on udev to provide the list of input devices.
+	If no devices become available, reconfigure udev or disable AutoAddDevices.
+[    34.010] (II) Loader magic: 0x55c8e9815020
+[    34.010] (II) Module ABI versions:
+[    34.010] 	X.Org ANSI C Emulation: 0.4
+[    34.010] 	X.Org Video Driver: 24.1
+[    34.010] 	X.Org XInput driver : 24.1
+[    34.010] 	X.Org Server Extension : 10.0
+[    34.015] (++) using VT number 2
+
+[    34.020] (II) systemd-logind: took control of session /org/freedesktop/login1/session/_33
+[    34.021] (II) xfree86: Adding drm device (/dev/dri/card0)
+[    34.022] (II) systemd-logind: got fd for /dev/dri/card0 226:0 fd 12 paused 0
+[    34.023] (--) PCI:*(1@0:0:0) 1ab8:4005:1ab8:0400 rev 0, Mem @ 0xb0000000/67108864, I/O @ 0x00006000/32, BIOS @ 0x????????/131072
+[    34.023] (II) LoadModule: "glx"
+[    34.025] (II) Loading /usr/lib/xorg/modules/extensions/libglx.so
+[    34.030] (II) Module glx: vendor="X.Org Foundation"
+[    34.030] 	compiled for 1.20.0, module version = 1.0.0
+[    34.030] 	ABI class: X.Org Server Extension, version 10.0
+[    34.030] (II) Exporting typical set of GLX visuals
+[    34.030] (II) LoadModule: "prlvideo"
+[    34.030] (II) Loading /usr/lib/xorg/modules/drivers/prlvideo_drv.so
+[    34.031] (II) PRLVIDEO: Search in '/usr/lib/xorg/modules'
+[    34.031] (II) PRLVIDEO: Load module '/usr/lib/xorg/modules/drivers/prlvidex_drv.so'...
+[    34.045] (II) Module prlvideo: vendor="Parallels Inc."
+[    34.045] 	compiled for 1.20.0, module version = 3.0.0
+[    34.045] 	Module class: X.Org Video Driver
+[    34.045] 	ABI class: X.Org Video Driver, version 24.0
+[    34.045] (II) PRLVIDEX:PrlSetup:  ...
+[    34.045] (II) PRLVIDEX:PrlIdentify:  ...
+[    34.045] (II) modesetting: Driver for Parallels DRM/KMS Kernel Driver: kms
+[    34.046] (II) PRLVIDEX:PrlPlatformProbe:  ...
+[    34.046] (II) PRLVIDEX:PrlProbeCommon:  ...
+[    34.046] (II) PRLVIDEX:PrlProbeCommon: Entity 0 will be shared with other screens
+[    34.046] (II) PRLVIDEX:PrlPlatformProbe: Platform probe for Screen 0 done
+[    34.046] (WW) VGA arbiter: cannot open kernel arbiter, no multi-card support
+[    34.046] (II) PRLVIDEX:PrlPreInit: Pre-initializing Screen 0 . . .
+[    34.046] (II) PRLDRM:PrlDrmMasterCreate: OPEN(SERVER_FD): path:/dev/dri/card0 fd:12.
+[    34.046] (II) PRLDRM:PrlDrmMasterCreate: Heads:4, buffer max width:8192 height:8192.
+[    34.046] (II) PRLDRM:PrlDrmMasterCreate:   HEAD-0 = CRTC-36 + OUT-38 + ENC-37
+[    34.046] (II) PRLDRM:PrlDrmMasterCreate:   HEAD-1 = CRTC-41 + OUT-43 + ENC-42
+[    34.046] (II) PRLDRM:PrlDrmMasterCreate:   HEAD-2 = CRTC-46 + OUT-48 + ENC-47
+[    34.046] (II) PRLDRM:PrlDrmMasterCreate:   HEAD-3 = CRTC-51 + OUT-53 + ENC-52
+[    34.046] (II) PRLVIDEX(0): PrlPreInit: Total Memory: 1024 64KB banks (65536kB)
+[    34.046] (II) PRLVIDEX(0): PrlPreInit: Configuring display modes for display Parallels Monitor ...
+[    34.046] (==) PRLVIDEX(0): Depth 24, (--) framebuffer bpp 32
+[    34.046] (II) PRLVIDEX(0): PrlPreInit: Selected depth: 24
+[    34.046] (==) PRLVIDEX(0): RGB weight 888
+[    34.046] (==) PRLVIDEX(0): Default visual is TrueColor
+[    34.046] (==) PRLVIDEX(0): Using gamma correction (1.0, 1.0, 1.0)
+[    34.046] (II) PRLVIDEX(0): PrlPreInit: Searching for matching video mode(s):
+[    34.046] (II) PRLVIDEX(0): PrlPreInit: Validating video modes (maxWidth=2560, maxHeight=1440, mapSize=65536Kb) ...
+[    34.046] (II) PRLVIDEX(0): Parallels Monitor: Using default hsync range of 31.50-48.00 kHz
+[    34.046] (II) PRLVIDEX(0): Parallels Monitor: Using default vrefresh range of 50.00-70.00 Hz
+[    34.046] (II) PRLVIDEX(0): Parallels Monitor: Using default maximum pixel clock of 65.00 MHz
+[    34.046] (II) PRLVIDEX:PrlValidMode:  ...
+[    34.046] (II) PRLVIDEX:PrlValidMode:  ...
+[    34.046] (II) PRLVIDEX:PrlValidMode:  ...
+[    34.046] (II) PRLVIDEX(0): Not using built-in mode "2560x1440" (width too large for virtual size)
+[    34.046] (II) PRLVIDEX(0): Not using built-in mode "1920x1200" (width too large for virtual size)
+[    34.046] (II) PRLVIDEX(0): Not using built-in mode "1600x1200" (width too large for virtual size)
+[    34.046] (II) PRLVIDEX(0): Not using built-in mode "1680x1050" (width too large for virtual size)
+[    34.046] (II) PRLVIDEX(0): Not using built-in mode "1400x1050" (width too large for virtual size)
+[    34.046] (II) PRLVIDEX(0): Not using built-in mode "1280x1024" (width too large for virtual size)
+[    34.046] (II) PRLVIDEX(0): Not using built-in mode "1440x900" (width too large for virtual size)
+[    34.046] (II) PRLVIDEX(0): Not using built-in mode "1280x960" (width too large for virtual size)
+[    34.046] (II) PRLVIDEX(0): Not using built-in mode "1280x800" (width too large for virtual size)
+[    34.046] (II) PRLVIDEX(0): PrlPreInit: Found 3 valid video modes
+[    34.046] (II) PRLVIDEX:PrlPreInit: Added initial display mode 1024x768
+[    34.046] (II) PRLVIDEX:PrlPreInit: Added initial display mode 800x600
+[    34.046] (II) PRLVIDEX:PrlPreInit: Added initial display mode 640x480
+[    34.046] (II) PRLVIDEX(0): Virtual size is 1024x768 (pitch 1024)
+[    34.046] (**) PRLVIDEX(0): *Built-in mode "1024x768": 64.2 MHz (scaled from 0.0 MHz), 47.8 kHz, 59.9 Hz
+[    34.046] (II) PRLVIDEX(0): Modeline "1024x768"x59.9   64.20  1024 1077 1183 1342  768 771 775 798 -hsync +vsync (47.8 kHz zPb)
+[    34.046] (**) PRLVIDEX(0): *Built-in mode "800x600": 38.3 MHz (scaled from 0.0 MHz), 37.4 kHz, 60.0 Hz
+[    34.046] (II) PRLVIDEX(0): Modeline "800x600"x60.0   38.31  800 832 912 1024  600 603 607 624 -hsync +vsync (37.4 kHz zb)
+[    34.046] (**) PRLVIDEX(0): *Built-in mode "640x480": 24.0 MHz (scaled from 0.0 MHz), 30.0 kHz, 59.9 Hz
+[    34.046] (II) PRLVIDEX(0): Modeline "640x480"x59.9   23.98  640 657 720 800  480 483 487 500 -hsync +vsync (30.0 kHz zb)
+[    34.046] (II) PRLVIDEX(0): PrlPreInit: Video modes validation success
+[    34.046] (==) PRLVIDEX(0): DPI set to (96, 96)
+[    34.046] (II) Loading sub module "fb"
+[    34.046] (II) LoadModule: "fb"
+[    34.046] (II) Loading /usr/lib/xorg/modules/libfb.so
+[    34.049] (II) Module fb: vendor="X.Org Foundation"
+[    34.049] 	compiled for 1.20.9, module version = 1.0.0
+[    34.049] 	ABI class: X.Org ANSI C Emulation, version 0.4
+[    34.049] (II) PRLCRTC:PrlCrtcInit: Start iniitalizing 4 CRTCs. Screen size max {8192, 8192}.
+[    34.049] (II) PRLCRTC:PrlCrtcInit: Initalizing 4 CRTCs done.
+[    34.049] (II) PRLCRTC:PrlOutputInit: Start iniitalizing 4 OUTPUTs.
+[    34.049] (II) PRLVIDEX(0): Output Virtual1 using monitor section Parallels Monitor
+[    34.049] (II) PRLDRM:PrlDrmEnableHead: HEAD-0: will be enabled
+[    34.050] (II) PRLVIDEX(0): Output Virtual2 has no monitor section
+[    34.050] (II) PRLDRM:PrlDrmEnableHead: HEAD-1: will be disabled
+[    34.052] (II) PRLVIDEX(0): Output Virtual3 has no monitor section
+[    34.052] (II) PRLDRM:PrlDrmEnableHead: HEAD-2: will be disabled
+[    34.053] (II) PRLVIDEX(0): Output Virtual4 has no monitor section
+[    34.053] (II) PRLDRM:PrlDrmEnableHead: HEAD-3: will be disabled
+[    34.053] (II) PRLCRTC:PrlOutputInit: Initializing 4 OUTPUTs done!
+[    34.053] (II) PRLVIDEX(0): Printing probed modes for output Virtual1
+[    34.053] (II) PRLVIDEX(0): Modeline "1024x768"x59.9   64.20  1024 1077 1183 1342  768 771 775 798 -hsync +vsync (47.8 kHz UP)
+[    34.053] (II) PRLVIDEX(0): Modeline "800x600"x60.0   38.31  800 832 912 1024  600 603 607 624 -hsync +vsync (37.4 kHz)
+[    34.053] (II) PRLVIDEX(0): Modeline "640x480"x59.9   23.98  640 657 720 800  480 483 487 500 -hsync +vsync (30.0 kHz)
+[    34.053] (II) PRLVIDEX(0): EDID for output Virtual2
+[    34.053] (II) PRLVIDEX(0): EDID for output Virtual3
+[    34.053] (II) PRLVIDEX(0): EDID for output Virtual4
+[    34.053] (II) PRLVIDEX(0): Output Virtual1 connected
+[    34.053] (II) PRLVIDEX(0): Output Virtual2 disconnected
+[    34.053] (II) PRLVIDEX(0): Output Virtual3 disconnected
+[    34.053] (II) PRLVIDEX(0): Output Virtual4 disconnected
+[    34.053] (II) PRLVIDEX(0): Using user preference for initial modes
+[    34.053] (II) PRLVIDEX(0): Output Virtual1 using initial mode 1024x768 +0+0
+[    34.053] (II) PRLVIDEX:PrlPreInit: Screen 0 was PRE initialized.
+[    34.053] (II) PRLVIDEX:PrlScreenInit:  ...
+[    34.053] (II) PRLVIDEX:PrlScreenInit: Initializing Screen 0 ...
+[    34.055] (II) PRLDRM:PrlDrmCreateFB: BO-CREATE(0x55c8eaec1b90): hndl:1 size:3145728 stride:4096 (1024 x 768 x 32)
+[    34.056] (==) PRLVIDEX(0): Default visual is TrueColor
+[    34.057] (==) PRLVIDEX(0): Backing store enabled
+[    34.057] (II) PRLCRTC:_PrlOutputCreateResources: OUTPUT-0: ...
+[    34.057] (II) PRLCRTC:_PrlOutputCreateResources: OUTPUT-1: ...
+[    34.057] (II) PRLCRTC:_PrlOutputCreateResources: OUTPUT-2: ...
+[    34.057] (II) PRLCRTC:_PrlOutputCreateResources: OUTPUT-3: ...
+[    34.057] (==) PRLVIDEX(0): DPMS enabled
+[    34.057] (WW) PRLVIDEX(0): Option "NoMTRR" is not used
+[    34.057] (II) PRLDRM:PrlDrmStartShareStates: Shared state mapped ptr:0x7f0065277000
+[    34.057] (II) PRLDRM:PrlDrmStartShareStates:   HEAD-0: bounds(16383, 16383, -16384, -16384)
+[    34.057] (II) PRLDRM:PrlDrmStartShareStates:   HEAD-1: bounds(16383, 16383, -16384, -16384)
+[    34.057] (II) PRLDRM:PrlDrmStartShareStates:   HEAD-2: bounds(16383, 16383, -16384, -16384)
+[    34.057] (II) PRLDRM:PrlDrmStartShareStates:   HEAD-3: bounds(16383, 16383, -16384, -16384)
+[    34.057] (II) PRLEXT:PrlCtlInitialize:  ...
+[    34.057] (II) PRLEXT:PrlCtlInitialize: Compiled for 1.20.0 XServer
+[    34.057] (II) PRLCONTROL: /proc/driver/prl_tg opened
+[    34.057] (II) PRLEXT:_PrlCtlInitExtension: ParallelsControl version 1.0 initalized
+[    34.057] (II) PRLCONTROL: OpenGL supported
+[    34.057] (II) PRLEXT:PrlCtlInitialize: Compositing supported
+[    34.057] (II) PRLEXT:PrlCtlInitialize: Video RAM: 65536 kByte
+[    34.057] (II) PRLEXT:PrlCtlInitialize: Multiheads supported
+[    34.057] (II) PRLEXT:PrlCtlInitialize: Randr's private data available
+[    34.057] (II) PRLCOHERENCE: Coherence initialized
+[    34.057] (II) PRLEXT:PrlCtlInitialize: PRLCONTROL: Disabled builting GLX extension.
+[    34.057] (II) PRLVIDEX:PrlScreenInit: Link to Open Tools Gate was opened.
+[    34.057] (II) PRLVIDEX: Cursor initialized.
+[    34.057] (II) PRLVIDEX:PrlScreenInit: Screen 0 was initialized.
+[    34.057] (II) Initializing extension Generic Event Extension
+[    34.058] (II) Initializing extension SHAPE
+[    34.058] (II) Initializing extension MIT-SHM
+[    34.058] (II) Initializing extension XInputExtension
+[    34.059] (II) Initializing extension XTEST
+[    34.060] (II) Initializing extension BIG-REQUESTS
+[    34.060] (II) Initializing extension SYNC
+[    34.060] (II) Initializing extension XKEYBOARD
+[    34.060] (II) Initializing extension XC-MISC
+[    34.060] (II) Initializing extension SECURITY
+[    34.060] (II) Initializing extension XFIXES
+[    34.060] (II) Initializing extension RENDER
+[    34.060] (II) Initializing extension RANDR
+[    34.060] (II) Initializing extension COMPOSITE
+[    34.060] (II) Initializing extension DAMAGE
+[    34.060] (II) Initializing extension MIT-SCREEN-SAVER
+[    34.060] (II) Initializing extension DOUBLE-BUFFER
+[    34.061] (II) Initializing extension RECORD
+[    34.061] (II) Initializing extension DPMS
+[    34.061] (II) Initializing extension Present
+[    34.061] (II) Initializing extension DRI3
+[    34.061] (II) Initializing extension X-Resource
+[    34.061] (II) Initializing extension XVideo
+[    34.061] (II) Initializing extension XVideo-MotionCompensation
+[    34.061] (II) Initializing extension SELinux
+[    34.061] (II) SELinux: Disabled on system
+[    34.061] (II) Initializing extension XFree86-VidModeExtension
+[    34.061] (II) Initializing extension XFree86-DGA
+[    34.061] (II) Initializing extension XFree86-DRI
+[    34.062] (II) Initializing extension DRI2
+[    34.062] (II) Initializing extension GLX
+[    34.062] (II) GLX: GlxExtensionInit: Compiled for 1.20.0 XServer
+[    34.062] (II) GLX: PrlGLXScreenInit: Allowed 4 X visuals
+[    34.062] (II) GLX: PrlGLXScreenInit:  vid=0x21 class=0x4
+[    34.062] (II) GLX: PrlGLXScreenInit:  vid=0x22 class=0x5
+[    34.062] (II) GLX: PrlGLXScreenInit:  vid=0x23 class=0x4
+[    34.062] (II) GLX: PrlGLXScreenInit:  vid=0x24 class=0x5
+[    34.062] (II) GLX: PrlGLXScreenInit: Allowed 2 X depths
+[    34.062] (II) GLX: PrlGLXScreenInit:  depth=24 vid=0x21
+[    34.062] (II) GLX: PrlGLXScreenInit:  depth=24 vid=0x22
+[    34.062] (II) GLX: PrlGLXScreenInit:  depth=32 vid=0x23
+[    34.062] (II) GLX: PrlGLXScreenInit:  depth=32 vid=0x24
+[    34.063] (II) GLX: PrlGLXScreenInit: GLX Parallels screen 0 initialized
+[    34.063] (II) GLX: GlxExtensionInit: Extension GLX added
+[    34.063] (II) GLX: PrlGLXPrintAvailableFBConfigs: Available 4 GLX visuals:
+[    34.063] (II) GLX: PrlGLXPrintAvailableFBConfigs:  0) visualID=0x21(33), fbconfigID=0x52(82), db=1, rgb=24, depth=24, stencil=8, visType=8002 texTgt=6
+[    34.063] (II) GLX: PrlGLXPrintAvailableFBConfigs:  1) visualID=0x22(34), fbconfigID=0x50(80), db=1, rgb=24, depth=24, stencil=8, visType=8003 texTgt=6
+[    34.063] (II) GLX: PrlGLXPrintAvailableFBConfigs:  2) visualID=0x23(35), fbconfigID=0x51(81), db=1, rgb=32, depth=24, stencil=8, visType=8002 texTgt=6
+[    34.063] (II) GLX: PrlGLXPrintAvailableFBConfigs:  3) visualID=0x24(36), fbconfigID=0x4F(79), db=1, rgb=32, depth=24, stencil=8, visType=8003 texTgt=6
+[    34.063] (II) GLX: PrlGLXPrintAvailableFBConfigs: Available 8 GLX fbconfigs:
+[    34.063] (II) GLX: PrlGLXPrintAvailableFBConfigs:  0) fbconfigID=0x4F(79), visualID=0x24(36), db=1, rgb=32, depth=24, stencil=8, visType=8003 texTgt=6
+[    34.063] (II) GLX: PrlGLXPrintAvailableFBConfigs:  1) fbconfigID=0x50(80), visualID=0x22(34), db=1, rgb=24, depth=24, stencil=8, visType=8003 texTgt=6
+[    34.063] (II) GLX: PrlGLXPrintAvailableFBConfigs:  2) fbconfigID=0x51(81), visualID=0x23(35), db=1, rgb=32, depth=24, stencil=8, visType=8002 texTgt=6
+[    34.063] (II) GLX: PrlGLXPrintAvailableFBConfigs:  3) fbconfigID=0x52(82), visualID=0x21(33), db=1, rgb=24, depth=24, stencil=8, visType=8002 texTgt=6
+[    34.063] (II) GLX: PrlGLXPrintAvailableFBConfigs:  4) fbconfigID=0x53(83), visualID=0x24(36), db=0, rgb=32, depth=24, stencil=8, visType=8003 texTgt=6
+[    34.063] (II) GLX: PrlGLXPrintAvailableFBConfigs:  5) fbconfigID=0x54(84), visualID=0x22(34), db=0, rgb=24, depth=24, stencil=8, visType=8003 texTgt=6
+[    34.063] (II) GLX: PrlGLXPrintAvailableFBConfigs:  6) fbconfigID=0x55(85), visualID=0x23(35), db=0, rgb=32, depth=24, stencil=8, visType=8002 texTgt=6
+[    34.063] (II) GLX: PrlGLXPrintAvailableFBConfigs:  7) fbconfigID=0x56(86), visualID=0x21(33), db=0, rgb=24, depth=24, stencil=8, visType=8002 texTgt=6
+[    34.063] (II) PRLVIDEX:PrlCreateScreenResources:  ...
+[    34.063] (II) PRLVIDEX:PrlEnterVT: Enter VT ...
+[    34.063] (II) PRLCRTC:PrlCrtcRestoreModes: CRTC-0: enabled
+[    34.063] (II) PRLCRTC:_PrlCrtcSetModeMajor: CRTC-0: Set video mode (1024x768, x=0, y=0)...
+[    34.063] (II) PRLDRM:PrlDrmConfigHead: HEAD-0: CRTC-36 OUT-38 FB-0 BO(1024, 768) <- DISPLAY(1024, 768) TOTAL(1342, 798) XY(0, 0)
+[    34.066] (II) PRLCRTC:_PrlCrtcDpms: CRTC-0: Enter to DPMS mode:0
+[    34.066] (II) PRLCRTC:_PrlOutputDpms: OUTPUT-0: Enter to DPMS mode:0
+[    34.066] (II) PRLCRTC:PrlCrtcRestoreModes: CRTC-1: disabled
+[    34.066] (II) PRLDRM:PrlDrmConfigHead: HEAD-1: CRTC-41 OUT-43 <- DISABLE
+[    34.066] (II) PRLCRTC:PrlCrtcRestoreModes: CRTC-2: disabled
+[    34.066] (II) PRLDRM:PrlDrmConfigHead: HEAD-2: CRTC-46 OUT-48 <- DISABLE
+[    34.066] (II) PRLCRTC:PrlCrtcRestoreModes: CRTC-3: disabled
+[    34.066] (II) PRLDRM:PrlDrmConfigHead: HEAD-3: CRTC-51 OUT-53 <- DISABLE
+[    34.067] (II) PRLDRM:PrlDrmMapFB: BO-MAP(0x55c8eaec1b90): ptr:0x7f006351a000 hndl:1 size:3145728 stride:4096
+[    34.067] (II) PRLVIDEX:PrlSetScreenPixmap: RMode: 1024x768, dw 1024, bpp: 32, depth: 24, head=0, base=0x7f006351a000
+[    34.072] (II) PRLVIDEX(0): Setting screen physical size to 270 x 203
+[    34.137] (II) config/udev: Adding input device Power Button (/dev/input/event0)
+[    34.137] (**) Power Button: Applying InputClass "libinput keyboard catchall"
+[    34.137] (II) LoadModule: "libinput"
+[    34.137] (II) Loading /usr/lib/xorg/modules/input/libinput_drv.so
+[    34.144] (II) Module libinput: vendor="X.Org Foundation"
+[    34.144] 	compiled for 1.20.4, module version = 0.29.0
+[    34.144] 	Module class: X.Org XInput Driver
+[    34.144] 	ABI class: X.Org XInput driver, version 24.1
+[    34.144] (II) Using input driver 'libinput' for 'Power Button'
+[    34.145] (II) systemd-logind: got fd for /dev/input/event0 13:64 fd 22 paused 0
+[    34.145] (**) Power Button: always reports core events
+[    34.145] (**) Option "Device" "/dev/input/event0"
+[    34.147] (**) Option "_source" "server/udev"
+[    34.162] (II) event0  - Power Button: is tagged by udev as: Keyboard
+[    34.162] (II) event0  - Power Button: device is a keyboard
+[    34.162] (II) event0  - Power Button: device removed
+[    34.162] (**) Option "config_info" "udev:/sys/devices/LNXSYSTM:00/LNXPWRBN:00/input/input0/event0"
+[    34.162] (II) XINPUT: Adding extended input device "Power Button" (type: KEYBOARD, id 6)
+[    34.162] (**) Option "xkb_model" "pc105"
+[    34.162] (**) Option "xkb_layout" "us"
+[    34.164] (II) event0  - Power Button: is tagged by udev as: Keyboard
+[    34.164] (II) event0  - Power Button: device is a keyboard
+[    34.165] (II) config/udev: Adding input device Sleep Button (/dev/input/event1)
+[    34.165] (**) Sleep Button: Applying InputClass "libinput keyboard catchall"
+[    34.165] (II) Using input driver 'libinput' for 'Sleep Button'
+[    34.166] (II) systemd-logind: got fd for /dev/input/event1 13:65 fd 25 paused 0
+[    34.166] (**) Sleep Button: always reports core events
+[    34.166] (**) Option "Device" "/dev/input/event1"
+[    34.166] (**) Option "_source" "server/udev"
+[    34.166] (II) event1  - Sleep Button: is tagged by udev as: Keyboard
+[    34.166] (II) event1  - Sleep Button: device is a keyboard
+[    34.167] (II) event1  - Sleep Button: device removed
+[    34.167] (**) Option "config_info" "udev:/sys/devices/LNXSYSTM:00/LNXSLPBN:00/input/input1/event1"
+[    34.167] (II) XINPUT: Adding extended input device "Sleep Button" (type: KEYBOARD, id 7)
+[    34.167] (**) Option "xkb_model" "pc105"
+[    34.167] (**) Option "xkb_layout" "us"
+[    34.167] (II) event1  - Sleep Button: is tagged by udev as: Keyboard
+[    34.167] (II) event1  - Sleep Button: device is a keyboard
+[    34.178] (II) config/udev: Adding input device Parallels Virtual Mouse (/dev/input/event3)
+[    34.178] (**) Parallels Virtual Mouse: Applying InputClass "libinput pointer catchall"
+[    34.178] (II) Using input driver 'libinput' for 'Parallels Virtual Mouse'
+[    34.238] (II) systemd-logind: got fd for /dev/input/event3 13:67 fd 26 paused 0
+[    34.238] (**) Parallels Virtual Mouse: always reports core events
+[    34.238] (**) Option "Device" "/dev/input/event3"
+[    34.238] (**) Option "_source" "server/udev"
+[    34.240] (II) event3  - Parallels Virtual Mouse: is tagged by udev as: Mouse
+[    34.240] (II) event3  - Parallels Virtual Mouse: device is a pointer
+[    34.240] (II) event3  - Parallels Virtual Mouse: device removed
+[    34.240] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:1d.0/usb2/2-1/2-1:1.0/0003:203A:FFFC.0001/input/input5/event3"
+[    34.240] (II) XINPUT: Adding extended input device "Parallels Virtual Mouse" (type: MOUSE, id 8)
+[    34.240] (**) Option "AccelerationScheme" "none"
+[    34.240] (**) Parallels Virtual Mouse: (accel) selected scheme none/0
+[    34.240] (**) Parallels Virtual Mouse: (accel) acceleration factor: 2.000
+[    34.240] (**) Parallels Virtual Mouse: (accel) acceleration threshold: 4
+[    34.242] (II) event3  - Parallels Virtual Mouse: is tagged by udev as: Mouse
+[    34.243] (II) event3  - Parallels Virtual Mouse: device is a pointer
+[    34.243] (II) config/udev: Adding input device Parallels Virtual Mouse (/dev/input/js0)
+[    34.243] (II) No input driver specified, ignoring this device.
+[    34.244] (II) This device may have been added with another device file.
+[    34.244] (II) config/udev: Adding input device Parallels Virtual Mouse (/dev/input/mouse0)
+[    34.244] (II) No input driver specified, ignoring this device.
+[    34.244] (II) This device may have been added with another device file.
+[    34.245] (II) config/udev: Adding input device Parallels Virtual Mouse (/dev/input/event4)
+[    34.245] (**) Parallels Virtual Mouse: Applying InputClass "libinput pointer catchall"
+[    34.245] (II) Using input driver 'libinput' for 'Parallels Virtual Mouse'
+[    34.308] (II) systemd-logind: got fd for /dev/input/event4 13:68 fd 27 paused 0
+[    34.308] (**) Parallels Virtual Mouse: always reports core events
+[    34.308] (**) Option "Device" "/dev/input/event4"
+[    34.308] (**) Option "_source" "server/udev"
+[    34.310] (II) event4  - Parallels Virtual Mouse: is tagged by udev as: Mouse
+[    34.310] (II) event4  - Parallels Virtual Mouse: device is a pointer
+[    34.311] (II) event4  - Parallels Virtual Mouse: device removed
+[    34.311] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:1d.0/usb2/2-1/2-1:1.1/0003:203A:FFFC.0002/input/input6/event4"
+[    34.311] (II) XINPUT: Adding extended input device "Parallels Virtual Mouse" (type: MOUSE, id 9)
+[    34.311] (**) Option "AccelerationScheme" "none"
+[    34.311] (**) Parallels Virtual Mouse: (accel) selected scheme none/0
+[    34.311] (**) Parallels Virtual Mouse: (accel) acceleration factor: 2.000
+[    34.311] (**) Parallels Virtual Mouse: (accel) acceleration threshold: 4
+[    34.312] (II) event4  - Parallels Virtual Mouse: is tagged by udev as: Mouse
+[    34.312] (II) event4  - Parallels Virtual Mouse: device is a pointer
+[    34.313] (II) config/udev: Adding input device Parallels Virtual Mouse (/dev/input/mouse1)
+[    34.313] (II) No input driver specified, ignoring this device.
+[    34.313] (II) This device may have been added with another device file.
+[    34.313] (II) config/udev: Adding input device AT Translated Set 2 keyboard (/dev/input/event2)
+[    34.313] (**) AT Translated Set 2 keyboard: Applying InputClass "libinput keyboard catchall"
+[    34.313] (II) Using input driver 'libinput' for 'AT Translated Set 2 keyboard'
+[    34.316] (II) systemd-logind: got fd for /dev/input/event2 13:66 fd 28 paused 0
+[    34.316] (**) AT Translated Set 2 keyboard: always reports core events
+[    34.316] (**) Option "Device" "/dev/input/event2"
+[    34.316] (**) Option "_source" "server/udev"
+[    34.319] (II) event2  - AT Translated Set 2 keyboard: is tagged by udev as: Keyboard
+[    34.319] (II) event2  - AT Translated Set 2 keyboard: device is a keyboard
+[    34.322] (II) event2  - AT Translated Set 2 keyboard: device removed
+[    34.322] (**) Option "config_info" "udev:/sys/devices/platform/i8042/serio0/input/input2/event2"
+[    34.322] (II) XINPUT: Adding extended input device "AT Translated Set 2 keyboard" (type: KEYBOARD, id 10)
+[    34.322] (**) Option "xkb_model" "pc105"
+[    34.322] (**) Option "xkb_layout" "us"
+[    34.331] (II) event2  - AT Translated Set 2 keyboard: is tagged by udev as: Keyboard
+[    34.331] (II) event2  - AT Translated Set 2 keyboard: device is a keyboard
+[    34.332] (II) config/udev: Adding input device ImExPS/2 Generic Explorer Mouse (/dev/input/event5)
+[    34.332] (**) ImExPS/2 Generic Explorer Mouse: Applying InputClass "libinput pointer catchall"
+[    34.332] (**) ImExPS/2 Generic Explorer Mouse: Applying InputClass "prlmouse"
+[    34.332] (II) LoadModule: "prlmouse"
+[    34.332] (II) Loading /usr/lib/xorg/modules/input/prlmouse_drv.so
+[    34.335] (II) Module prlmouse: vendor="Parallels Inc."
+[    34.335] 	compiled for 1.20.0, module version = 1.3.0
+[    34.335] 	Module class: X.Org XInput Driver
+[    34.335] 	ABI class: X.Org XInput driver, version 24.1
+[    34.335] (II) Parallels Mouse: Module was plugged
+[    34.335] (II) Using input driver 'prlmouse' for 'ImExPS/2 Generic Explorer Mouse'
+[    34.336] (II) systemd-logind: got fd for /dev/input/event5 13:69 fd 29 paused 0
+[    34.336] (**) ImExPS/2 Generic Explorer Mouse: always reports core events
+[    34.336] (II) Parallels Mouse: Initializing (flags=24 (server_fd=1) fd=29)...
+[    34.336] (II) Parallels Mouse: Link to Open Tools Gate was opened
+[    34.336] (**) ImExPS/2 Generic Explorer Mouse: always reports core events
+[    34.336] (**) Parallels Mouse: Device: "/dev/input/event5"
+[    34.336] (**) Parallels Mouse: ZAxisMapping: buttons 4, 5, 6 and 7
+[    34.336] (II) Parallels Mouse: Module common options were read
+[    34.337] (II) Parallels Mouse: Module was initialized
+[    34.337] (**) Option "config_info" "udev:/sys/devices/platform/i8042/serio1/input/input4/event5"
+[    34.337] (II) XINPUT: Adding extended input device "ImExPS/2 Generic Explorer Mouse" (type: MOUSE, id 11)
+[    34.337] (II) Parallels Mouse: Device was initialized
+[    34.337] (**) ImExPS/2 Generic Explorer Mouse: (accel) keeping acceleration scheme 1
+[    34.337] (**) ImExPS/2 Generic Explorer Mouse: (accel) acceleration profile 0
+[    34.337] (**) ImExPS/2 Generic Explorer Mouse: (accel) acceleration factor: 2.000
+[    34.337] (**) ImExPS/2 Generic Explorer Mouse: (accel) acceleration threshold: 4
+[    34.337] (--) Parallels Mouse: Evdev input device detected "ImExPS/2 Generic Explorer Mouse"
+[    34.337] (II) Parallels Mouse: Mouse protocol detected: Evdev
+[    34.337] (II) Parallels Mouse: Sliding Mouse enabling code:0 proto:1
+[    34.337] (II) Parallels Mouse: Device was switched on
+[    34.337] (II) config/udev: Adding input device ImExPS/2 Generic Explorer Mouse (/dev/input/mouse2)
+[    34.337] (II) No input driver specified, ignoring this device.
+[    34.337] (II) This device may have been added with another device file.
+[    34.350] (II) PRLVIDEX:PrlSaveScreen:  ...
+[    34.434] (II) PRLCONTROL: Read parallels (/bin/bash) settings from /home/parallels ...
+[    34.441] (II) PRLCONTROL: Config '/home/parallels/.config/monitors.xml' parsed with result 1
+[    34.441] (II) PRLCONTROL: Found user resolution {1288x735}
+[    34.441] (II) PRLEXTIMPL:PrlCtlAddDisplayMode:  ...
+[    34.441] (II) PRLEXTIMPL:PrlCtlAddDisplayMode: Added display mode 1288x735
+[    34.441] (II) PRLCONTROL: Interactive user session detected
+[    34.441] (II) PRLEXTIMPL:PrlCtlDisplayModesInit: Display modes initialization:
+[    34.441] (II) PRLEXTIMPL:PrlCtlDisplayModesInit: Preferred modes list from xorg conf:
+[    34.441] (II) PRLEXTIMPL:PrlCtlDisplayModesInit:  1024x768
+[    34.441] (II) PRLEXTIMPL:PrlCtlDisplayModesInit:  800x600
+[    34.441] (II) PRLEXTIMPL:PrlCtlDisplayModesInit:  640x480
+[    34.441] (II) PRLCRTC:PrlCrtcProbeModes: Screen size {1288, 768}/{8192, 8192}.
+[    34.441] (II) PRLEXTIMPL:PrlCtlDisplayModesInit: Randr modes reset done.
+[    34.441] (II) PRLVIDEX(0): Virtual size is 1024x768 (pitch 1024)
+[    34.441] (**) PRLVIDEX(0):  Mode "1024x768": 64.2 MHz (scaled from 0.0 MHz), 47.8 kHz, 59.9 Hz
+[    34.441] (II) PRLVIDEX(0): Modeline "1024x768"x59.9   64.20  1024 1077 1183 1342  768 771 775 798 -hsync +vsync (47.8 kHz UP)
+[    34.441] (**) PRLVIDEX(0):  Mode "1288x735": 77.0 MHz (scaled from 0.0 MHz), 45.8 kHz, 59.9 Hz
+[    34.441] (II) PRLVIDEX(0): Modeline "1288x735"x59.9   77.02  1288 1352 1485 1682  735 738 748 764 -hsync +vsync (45.8 kHz)
+[    34.441] (**) PRLVIDEX(0):  Mode "800x600": 38.3 MHz (scaled from 0.0 MHz), 37.4 kHz, 60.0 Hz
+[    34.441] (II) PRLVIDEX(0): Modeline "800x600"x60.0   38.31  800 832 912 1024  600 603 607 624 -hsync +vsync (37.4 kHz)
+[    34.441] (**) PRLVIDEX(0):  Mode "640x480": 24.0 MHz (scaled from 0.0 MHz), 30.0 kHz, 59.9 Hz
+[    34.441] (II) PRLVIDEX(0): Modeline "640x480"x59.9   23.98  640 657 720 800  480 483 487 500 -hsync +vsync (30.0 kHz)
+[    34.797] (II) PRLCONTROL: +GLPBuffer(0x55c8eb164c30, hpbuf=0x6021c5e9, pid=2191, SB, GLXDraw=(0x55c8eb164af0, id=4194308(0x400004)), Draw=(0x55c8eb1f4530, id=4194307(0x400003), redirect=0, sz=(1x1)), Pix=(0x55c8eaef8520, sz=(1024x768)), tgt=0x20dd, fmt=0x20d9) created
+[    34.808] (II) PRLCONTROL: -GLPBuffer(0x55c8eb164c30, GlxDraw=0x55c8eb164af0, hpbuf=0x6021c5e9, tgt=20DD) destroyed (0)
+[    35.171] (II) PRLCONTROL: +GLPBuffer(0x55c8eb164cc0, hpbuf=0x6021c5e9, pid=2217, SB, GLXDraw=(0x55c8eb1a8c60, id=4194308(0x400004)), Draw=(0x55c8eb1f5cf0, id=4194307(0x400003), redirect=0, sz=(1x1)), Pix=(0x55c8eaef8520, sz=(1024x768)), tgt=0x20dd, fmt=0x20d9) created
+[    35.180] (II) PRLCONTROL: -GLPBuffer(0x55c8eb164cc0, GlxDraw=0x55c8eb1a8c60, hpbuf=0x6021c5e9, tgt=20DD) destroyed (0)
+[    35.215] (II) PRLCONTROL: +GLPBuffer(0x55c8eb164cc0, hpbuf=0x6021c5e9, pid=2217, SB, GLXDraw=(0x55c8eb1f4720, id=4194313(0x400009)), Draw=(0x55c8eb1f5cf0, id=4194312(0x400008), redirect=0, sz=(1x1)), Pix=(0x55c8eaef8520, sz=(1024x768)), tgt=0x20dd, fmt=0x20d9) created
+[    35.229] (II) PRLCRTC:_PrlOutputDpms: OUTPUT-0: Enter to DPMS mode:3
+[    35.230] (II) PRLCRTC:_PrlOutputDpms: OUTPUT-1: Enter to DPMS mode:3
+[    35.230] (II) PRLCRTC:_PrlOutputDpms: OUTPUT-2: Enter to DPMS mode:3
+[    35.230] (II) PRLCRTC:_PrlOutputDpms: OUTPUT-3: Enter to DPMS mode:3
+[    35.230] (II) PRLCRTC:_PrlCrtcDpms: CRTC-0: Enter to DPMS mode:3
+[    35.230] (II) PRLCRTC:_PrlCrtcDpms: CRTC-1: Enter to DPMS mode:3
+[    35.230] (II) PRLCRTC:_PrlCrtcDpms: CRTC-2: Enter to DPMS mode:3
+[    35.230] (II) PRLCRTC:_PrlCrtcDpms: CRTC-3: Enter to DPMS mode:3
+[    35.231] (II) PRLCRTC:_PrlScreenResize: >>>>> Set Crtc screen size {1024x768} -> {1288x735} bpp:32 ...
+[    35.231] (II) PRLDRM:PrlDrmDestroyFB: BO-DESTROY(0x55c8eaec1b90): hndl:1 size:3145728 stride:4096 (1024 x 768 x 32)
+[    35.233] (II) PRLDRM:PrlDrmCreateFB: BO-CREATE(0x55c8eaec1b90): hndl:1 size:4128768 stride:5376 (1288 x 735 x 32)
+[    35.233] (II) PRLDRM:PrlDrmMapFB: BO-MAP(0x55c8eaec1b90): ptr:0x7f006242d000 hndl:1 size:4128768 stride:5376
+[    35.233] (II) PRLVIDEX:PrlSetScreenPixmap: RMode: 1288x735, dw 1288, bpp: 32, depth: 24, head=0, base=0x7f006242d000
+[    35.237] (II) PRLCRTC:_PrlCrtcSetModeMajor: CRTC-0: Set video mode (1288x735, x=0, y=0)...
+[    35.237] (II) PRLDRM:PrlDrmConfigHead: HEAD-0: CRTC-36 OUT-38 FB-0 BO(1288, 735) <- DISPLAY(1288, 735) TOTAL(1682, 764) XY(0, 0)
+[    35.238] (II) PRLCRTC:_PrlCrtcDpms: CRTC-0: Enter to DPMS mode:0
+[    35.238] (II) PRLCRTC:_PrlOutputDpms: OUTPUT-0: Enter to DPMS mode:0
+[    35.238] (II) PRLCRTC:_PrlOutputDpms: OUTPUT-1: Enter to DPMS mode:3
+[    35.238] (II) PRLCRTC:_PrlOutputDpms: OUTPUT-2: Enter to DPMS mode:3
+[    35.238] (II) PRLCRTC:_PrlOutputDpms: OUTPUT-3: Enter to DPMS mode:3
+[    35.238] (II) PRLCRTC:_PrlCrtcDpms: CRTC-1: Enter to DPMS mode:3
+[    35.238] (II) PRLCRTC:_PrlCrtcDpms: CRTC-2: Enter to DPMS mode:3
+[    35.238] (II) PRLCRTC:_PrlCrtcDpms: CRTC-3: Enter to DPMS mode:3
+[    35.238] (II) PRLCRTC:_PrlOutputSetProperty: OUTPUT-0: ...
+[    35.239] (II) PRLCRTC:_PrlOutputGetProperty: OUTPUT-0: ...
+[    35.300] (II) PRLVIDEX: Use HardWare cursor.
+[    35.301] (II) PRLCONTROL: Window manager detected
+[    35.301] (II) PRLCONTROL: Composite overlay window (DrawPtr=0x55c8eb135a40 (id=78)) detected
+[    37.561] (II) PRLCRTC:_PrlOutputGetProperty: OUTPUT-0: ...
+[    37.630] (II) PRLCRTC:_PrlOutputGetProperty: OUTPUT-0: ...
+[    37.662] (II) PRLCRTC:_PrlOutputGetProperty: OUTPUT-0: ...
+[    37.672] (II) PRLCRTC:_PrlOutputGetProperty: OUTPUT-0: ...
+[    37.679] (II) PRLCRTC:_PrlOutputGetProperty: OUTPUT-0: ...
+[    38.571] (II) PRLVIDEX:PrlDisplayPMSet:  ...
+[    39.481] (II) PRLCONTROL: +GLPBuffer(0x55c8eb354a10, hpbuf=0x6021c5ea, pid=2217, SB, GLXDraw=(0x55c8eb147720, id=4194318(0x40000e)), Draw=(0x55c8eb1f4530, id=4194317(0x40000d), redirect=0, sz=(1288x735)), Pix=(0x55c8eaef8520, sz=(1288x735)), tgt=0x20dd, fmt=0x20d9) created
+[    39.482] (II) PRLCONTROL: OpenGL Composite overlay detected (Draw=(0x55c8eb1f4530, id=4194317(0x40000d)), GLXDraw=(0x55c8eb147720, id=4194318(0x40000e))).
+[    39.484] (II) PRLCONTROL: OpenGL Compositing enabled.
+[    40.683] (II) PRLCOHERENCE: _NET_WM_WINDOW_TYPE atom (value=132 type=1)
+[    40.683] (II) PRLCOHERENCE: _NET_WM_WINDOW_TYPE_DESKTOP atom (value=18C type=2)
+[    40.683] (II) PRLCOHERENCE: _NET_WM_WINDOW_TYPE_DOCK atom (value=18D type=3)
+[    40.683] (II) PRLCOHERENCE: _NET_WM_WINDOW_TYPE_TOOLBAR atom (value=18E type=4)
+[    40.683] (II) PRLCOHERENCE: _NET_WM_WINDOW_TYPE_MENU atom (value=137 type=5)
+[    40.683] (II) PRLCOHERENCE: _NET_WM_WINDOW_TYPE_UTILITY atom (value=13B type=6)
+[    40.683] (II) PRLCOHERENCE: _NET_WM_WINDOW_TYPE_SPLASH atom (value=18F type=7)
+[    40.683] (II) PRLCOHERENCE: _NET_WM_WINDOW_TYPE_DIALOG atom (value=134 type=8)
+[    40.683] (II) PRLCOHERENCE: _NET_WM_WINDOW_TYPE_DROPDOWN_MENU atom (value=136 type=9)
+[    40.683] (II) PRLCOHERENCE: _NET_WM_WINDOW_TYPE_POPUP_MENU atom (value=139 type=10)
+[    40.683] (II) PRLCOHERENCE: _NET_WM_WINDOW_TYPE_TOOLTIP atom (value=13A type=11)
+[    40.683] (II) PRLCOHERENCE: _NET_WM_WINDOW_TYPE_NOTIFICATION atom (value=190 type=12)
+[    40.683] (II) PRLCOHERENCE: _NET_WM_WINDOW_TYPE_COMBO atom (value=133 type=13)
+[    40.683] (II) PRLCOHERENCE: _NET_WM_WINDOW_TYPE_DND atom (value=135 type=14)
+[    40.683] (II) PRLCOHERENCE: _NET_WM_WINDOW_TYPE_NORMAL atom (value=138 type=15)
+[    40.683] (II) PRLCOHERENCE: _NET_WM_NAME atom (value=122 type=16)
+[    40.683] (II) PRLCOHERENCE: WM_NAME atom (value=27 type=17)
+[    40.683] (II) PRLCOHERENCE: _COMPIZ_WM_WINDOW_BLUR atom (value=1D7 type=18)
+[    40.731] (II) PRLCONTROL: User session (userid=3E8) enabled
+[    41.054] (II) PRLVIDEX:PrlOtgReqDynResEnable: Dynamic resolution was enabled
+[    41.054] (II) PRLCONTROL: Dynamic resolution was enabled in user session (userid=3E8)
+[    41.054] (II) PRLEXTIMPL:PrlCtlGetAvailableInGuestDisplaysCount: Available heads: 4 of 4
+[    41.055] (II) PRLVIDEX:PrlOtgReqSendMaxHeads: Send Max Heads=4 to host
+[   114.556] (II) PRLCONTROL: +GLPBuffer(0x55c8eb387bf0, hpbuf=0x6021c5e7, pid=0, DB, GLXDraw=(0x55c8eb388b70, id=50331651(0x3000003)), Draw=(0x55c8eb388ac0, id=0(0x0), redirect=0, sz=(1x1)), Pix=(0x55c8eb388ac0, sz=(1x1)), tgt=0x20dc, fmt=0x20d9) created
+[   114.575] (II) PRLCONTROL: +GLPBuffer(0x55c8eb386e70, hpbuf=0x6021c5e8, pid=0, DB, GLXDraw=(0x55c8eb388dc0, id=50331653(0x3000005)), Draw=(0x55c8eb388d10, id=0(0x0), redirect=0, sz=(1x1)), Pix=(0x55c8eb388d10, sz=(1x1)), tgt=0x20dc, fmt=0x20d9) created
+[   114.587] (II) PRLCONTROL: +GLPBuffer(0x55c8eb38a0a0, hpbuf=0x6021c5eb, pid=0, DB, GLXDraw=(0x55c8eb389010, id=50331654(0x3000006)), Draw=(0x55c8eb388f60, id=0(0x0), redirect=0, sz=(1x1)), Pix=(0x55c8eb388f60, sz=(1x1)), tgt=0x20dc, fmt=0x20d9) created
+[   115.358] (II) PRLCONTROL: +GLPBuffer(0x55c8eb3dd7a0, hpbuf=0x6021c5ec, pid=2952, SB, GLXDraw=(0x55c8eb3fe970, id=50331657(0x3000009)), Draw=(0x55c8eb3fdbe0, id=50331656(0x3000008), redirect=0, sz=(1216x708)), Pix=(0x7f00620e4010, sz=(1216x708)), tgt=0x20dc, fmt=0x20d9) created
+[   136.543] (II) PRLCONTROL: +GLPBuffer(0x55c8eb3af520, hpbuf=0x6021c5ed, pid=2952, SB, GLXDraw=(0x55c8eb2908a0, id=50331662(0x300000e)), Draw=(0x55c8eb3e0320, id=50331661(0x300000d), redirect=0, sz=(321x404)), Pix=(0x55c8eb401150, sz=(321x404)), tgt=0x20dc, fmt=0x20d9) created
+[   138.267] (II) PRLCONTROL: -GLPBuffer(0x55c8eb3af520, GlxDraw=0x55c8eb2908a0, hpbuf=0x6021c5ed, tgt=20DC) destroyed (0)
+[   355.557] (II) event3  - Parallels Virtual Mouse: Enabling spurious button debouncing, see https://wayland.freedesktop.org/libinput/doc/1.15.5/button-debouncing.html for details
+[   460.084] (II) PRLCONTROL: -GLPBuffer(0x55c8eb3dd7a0, GlxDraw=0x55c8eb3fe970, hpbuf=0x6021c5ec, tgt=20DC) destroyed (0)
+[   460.278] (II) PRLCONTROL: -GLPBuffer(0x55c8eb387bf0, GlxDraw=0x55c8eb388b70, hpbuf=0x6021c5e7, tgt=20DC) destroyed (0)
+[   460.278] (II) PRLCONTROL: -GLPBuffer(0x55c8eb386e70, GlxDraw=0x55c8eb388dc0, hpbuf=0x6021c5e8, tgt=20DC) destroyed (0)
+[   460.278] (II) PRLCONTROL: -GLPBuffer(0x55c8eb38a0a0, GlxDraw=0x55c8eb389010, hpbuf=0x6021c5eb, tgt=20DC) destroyed (0)
+[   702.323] (II) PRLVIDEX:PrlOtgReqDynResEnable: Dynamic resolution was disabled
+[   702.325] (II) PRLDRM:PrlDrmEnableHead: HEAD-1: will be disabled
+[   702.325] (II) PRLDRM:PrlDrmEnableHead: HEAD-2: will be disabled
+[   702.327] (II) PRLDRM:PrlDrmEnableHead: HEAD-3: will be disabled
+[   702.327] (II) PRLCONTROL: Dynamic resolution was disabled in user session (userid=3E8)
+[   702.327] (II) PRLEXTIMPL:PrlCtlGetAvailableInGuestDisplaysCount: Available heads: 1 of 4
+[   702.327] (II) PRLVIDEX:PrlOtgReqSendMaxHeads: Send Max Heads=1 to host
+[   702.377] (II) PRLCONTROL: User agent lost, deinitializing components...
+[   702.379] (II) PRLCONTROL: User session (userid=3E8) disabled
+[   702.379] (II) PRLCONTROL: User agent deinit done.
+[   702.511] (II) PRLCONTROL: Composite overlay window lost
+[   702.512] (II) PRLCONTROL: OpenGL Composite overlay lost (Draw=(0x55c8eb1f4530, id=4194317(0x40000d)), GLXDraw=(0x55c8eb147720, id=4194318(0x40000e))).
+[   702.512] (II) PRLCONTROL: OpenGL Compositing disabled.
+[   702.513] (II) PRLCONTROL: -GLPBuffer(0x55c8eb354a10, GlxDraw=0x55c8eb147720, hpbuf=0x6021c5ea, tgt=20DD) destroyed (0)
+[   702.513] (II) PRLCONTROL: Window manager lost
+[   702.847] (II) PRLCONTROL: -GLPBuffer(0x55c8eb164cc0, GlxDraw=0x55c8eb1f4720, hpbuf=0x6021c5e9, tgt=20DD) destroyed (0)
+[   702.892] (**) Option "fd" "22"
+[   702.900] (II) event0  - Power Button: device removed
+[   702.930] (**) Option "fd" "25"
+[   702.930] (II) event1  - Sleep Button: device removed
+[   702.931] (**) Option "fd" "26"
+[   702.931] (II) event3  - Parallels Virtual Mouse: device removed
+[   702.931] (**) Option "fd" "27"
+[   702.931] (II) event4  - Parallels Virtual Mouse: device removed
+[   702.931] (**) Option "fd" "28"
+[   702.931] (II) event2  - AT Translated Set 2 keyboard: device removed
+[   702.954] (II) Parallels Mouse: Sliding Mouse disabling [0]
+[   703.274] (II) Parallels Mouse: Device was switched off
+[   703.274] (II) PRLVIDEX:PrlDisplayPMSet:  ...
+[   703.329] (II) Parallels Mouse: Sliding Mouse disabling [0]
+[   703.440] (II) Parallels Mouse: Device was closed
+[   703.440] (II) Parallels Mouse: Link to Open Tools Gate was closed
+[   703.440] (II) UnloadModule: "prlmouse"
+[   703.440] (II) systemd-logind: releasing fd for 13:69
+[   703.466] (II) Parallels Mouse: Module was deinitialized
+[   703.467] (II) UnloadModule: "libinput"
+[   703.467] (II) systemd-logind: releasing fd for 13:66
+[   703.490] (II) UnloadModule: "libinput"
+[   703.490] (II) systemd-logind: releasing fd for 13:68
+[   703.492] (II) UnloadModule: "libinput"
+[   703.492] (II) systemd-logind: releasing fd for 13:67
+[   703.494] (II) UnloadModule: "libinput"
+[   703.495] (II) systemd-logind: releasing fd for 13:65
+[   703.514] (II) UnloadModule: "libinput"
+[   703.514] (II) systemd-logind: releasing fd for 13:64
+[   703.529] (II) GLX: _PrlGLXScreenDeinit: GLX Parallels screen 0 deinitialized
+[   703.531] (II) PRLVIDEX:PrlCloseScreen:  ...
+[   703.531] (II) PRLVIDEX: Cursor deinitialized.
+[   703.532] (II) PRLEXT:PrlCtlDeinitialize:  ...
+[   703.532] (II) PRLEXTIMPL:PrlCtlDisplayModesDeinit:  ...
+[   703.532] (II) PRLCOHERENCE: Coherence cleanup
+[   703.532] (WW) PRLCOHERENCE: Remain non deleted Coherence resources! Implicitly cleaned them
+[   703.532] (II) PRLCOHERENCE: Coherence deinitialized
+[   703.532] (II) PRLCONTROL: /proc/driver/prl_tg closed
+[   703.532] (II) PRLDRM:PrlDrmStopShareStates: Shared state unmapped
+[   703.533] (II) PRLVIDEX:PrlCloseScreen: Link to Open Tools Gate was closed.
+[   703.533] (II) PRLDRM:PrlDrmDestroyFB: BO-DESTROY(0x55c8eaec1b90): hndl:1 size:4128768 stride:5376 (1288 x 735 x 32)
+[   703.533] (II) PRLDRM:PrlDrmMasterDestroy: DRM primary node closed.
+[   703.533] (II) PRLVIDEX:PrlCloseScreen: Screen 0 closed
+[   703.568] (WW) xf86CloseConsole: KDSETMODE failed: Input/output error
+[   703.568] (WW) xf86CloseConsole: VT_GETMODE failed: Input/output error
+[   703.568] (WW) xf86CloseConsole: VT_ACTIVATE failed: Input/output error
+[   703.571] (II) Server terminated successfully (0). Closing log file.

@@ -1,0 +1,5 @@
+2021/02/08-17:28:26.927 a80 Reusing MANIFEST /home/parallels/.config/google-chrome/Default/IndexedDB/https_remotedesktop.google.com_0.indexeddb.leveldb/MANIFEST-000001
+2021/02/08-17:28:59.295 a80 Level-0 table #5: started
+2021/02/08-17:28:59.303 a80 Level-0 table #5: 2173 bytes OK
+2021/02/08-17:28:59.306 a80 Delete type=0 #3
+2021/02/08-17:28:59.308 a80 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

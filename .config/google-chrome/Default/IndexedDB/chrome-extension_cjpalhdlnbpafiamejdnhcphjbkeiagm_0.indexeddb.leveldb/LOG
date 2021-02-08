@@ -1,0 +1,5 @@
+2021/02/08-17:28:40.144 e52 Reusing MANIFEST /home/parallels/.config/google-chrome/Default/IndexedDB/chrome-extension_cjpalhdlnbpafiamejdnhcphjbkeiagm_0.indexeddb.leveldb/MANIFEST-000001
+2021/02/08-17:28:42.176 e52 Level-0 table #5: started
+2021/02/08-17:28:42.240 e52 Level-0 table #5: 217 bytes OK
+2021/02/08-17:28:42.266 e52 Delete type=0 #3
+2021/02/08-17:28:42.276 e52 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

@@ -1,0 +1,5 @@
+2021/02/08-17:29:04.891 c8d Reusing MANIFEST /home/parallels/.config/google-chrome/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/MANIFEST-000001
+2021/02/08-17:29:24.111 c8d Level-0 table #5: started
+2021/02/08-17:29:24.113 c8d Level-0 table #5: 1165 bytes OK
+2021/02/08-17:29:24.114 c8d Delete type=0 #3
+2021/02/08-17:29:24.115 c8d Manual compaction at level-0 from (begin) .. (end); will stop at (end)

@@ -1,0 +1,6 @@
+2021/02/08-17:27:36.894 a61 Reusing MANIFEST /home/parallels/.config/google-chrome/Default/Sync Data/LevelDB/MANIFEST-000001
+2021/02/08-17:27:36.894 a61 Recovering log #3
+2021/02/08-17:27:36.895 a61 Reusing old log /home/parallels/.config/google-chrome/Default/Sync Data/LevelDB/000003.log 
+2021/02/08-17:31:12.221 e53 Level-0 table #5: started
+2021/02/08-17:31:12.265 e53 Level-0 table #5: 239231 bytes OK
+2021/02/08-17:31:12.267 e53 Delete type=0 #3

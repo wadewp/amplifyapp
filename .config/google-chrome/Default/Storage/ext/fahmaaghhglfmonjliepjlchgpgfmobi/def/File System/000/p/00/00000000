@@ -1,0 +1,39 @@
+
+
+-------session starts-------
+
+[2-8 23:28:40.390] INFO: App freshly installed.
+[2-8 23:28:40.410] INFO: MediaGallery: name=/home/parallels/Music, galleryId=1, isMediaDevice=false, deviceId=undefined
+[2-8 23:28:40.411] INFO: MediaGallery: name=/home/parallels/Pictures, galleryId=2, isMediaDevice=false, deviceId=undefined
+[2-8 23:28:40.411] INFO: MediaGallery: name=/home/parallels/Videos, galleryId=3, isMediaDevice=false, deviceId=undefined
+[2-8 23:28:40.412] INFO: Starts a quick scan on /home/parallels/Music
+[2-8 23:28:40.413] INFO: Iterating over dir / from source /home/parallels/Music
+[2-8 23:28:40.415] INFO: Starts a quick scan on /home/parallels/Pictures
+[2-8 23:28:40.416] INFO: Iterating over dir / from source /home/parallels/Pictures
+[2-8 23:28:40.419] INFO: Starts a quick scan on /home/parallels/Videos
+[2-8 23:28:40.420] INFO: Iterating over dir / from source /home/parallels/Videos
+[2-8 23:28:40.421] INFO: LocalSettings cleared
+[2-8 23:28:40.422] INFO: Update setting: lsAppActivated=false
+[2-8 23:28:40.423] INFO: Update setting: lsDragAndDropActivated=false
+[2-8 23:28:40.423] INFO: /home/parallels/Music does not contain music file
+[2-8 23:28:40.426] INFO: /home/parallels/Pictures does not contain music file
+[2-8 23:28:40.427] INFO: /home/parallels/Videos does not contain music file
+[2-8 23:28:40.525] INFO: Got the drag_and_drop directory
+[2-8 23:28:41.786] WARNING: Tier change detected
+[2-8 23:28:41.857] INFO: Fetched user settings from server.
+[2-8 23:28:41.887] INFO: chromeapp:O ready
+[2-8 23:28:41.946] INFO: lsUserAddedMusicSourceIds=null
+[2-8 23:28:41.946] INFO: lsLastTrackFailureLoggingTime=null
+[2-8 23:28:41.947] INFO: lsSyncMusicEnabled=null
+[2-8 23:28:41.947] INFO: lsAppActivated=undefined
+[2-8 23:28:41.948] INFO: lsAppActivated=undefined
+[2-8 23:28:41.949] INFO: lsUserSelectedDownloadDirId=null
+[2-8 23:28:41.981] INFO: lsDefaultDownloadLocationId=null
+[2-8 23:28:41.982] INFO: Setting is already: lsDefaultDownloadLocationId = null
+[2-8 23:28:41.996] INFO: Update setting: lsAlwaysUseDefaultDownloadLocation=false
+[2-8 23:28:41.996] INFO: lsAlwaysUseDefaultDownloadLocation=false
+[2-8 23:28:41.997] INFO: lsAlwaysUseDefaultDownloadLocation=false
+[2-8 23:28:44.666] INFO: lsAppActivated=undefined
+[2-8 23:28:44.673] INFO: lsDragAndDropActivated=false
+[2-8 23:28:44.673] INFO: Nacl version: 1.0.635.372
+[2-8 23:28:44.674] INFO: lsAppActivated=undefined
